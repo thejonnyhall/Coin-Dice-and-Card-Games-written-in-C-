@@ -124,6 +124,9 @@
     <EmbeddedResource Include="Snake_Eyes.resx">
       <DependentUpon>Snake_Eyes.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Twenty_One.resx">
+      <DependentUpon>Twenty_One.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Two_Up.resx">
       <DependentUpon>Two_Up.cs</DependentUpon>
     </EmbeddedResource>

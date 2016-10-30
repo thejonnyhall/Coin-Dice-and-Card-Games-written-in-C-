@@ -21,7 +21,7 @@ namespace ClassAssignment {
         public Two_Up() {
             InitializeComponent();
             Two_Up_Game.SetUpGame();
-            UpdateImages();           
+            UpdateImages();
         }
 
         /// <summary>

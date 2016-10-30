@@ -19,3 +19,24 @@ D:\Jonny\2016\Uni Stuff\Semester 2 2016\ClassAssignment\ClassAssignment\obj\Debu
 D:\Jonny\2016\Uni Stuff\Semester 2 2016\ClassAssignment\ClassAssignment\obj\Debug\ClassAssignment.Which_Card_Game.resources
 D:\Jonny\2016\Uni Stuff\Semester 2 2016\ClassAssignment\ClassAssignment\obj\Debug\ClassAssignment.Which_Dice_Game.resources
 D:\Jonny\2016\Uni Stuff\Semester 2 2016\ClassAssignment\ClassAssignment\obj\Debug\ClassAssignment.Snake_Eyes.resources
+D:\Jonny\2016\Uni Stuff\Semester 2 2016\ClassAssignment\ClassAssignment\obj\Debug\ClassAssignment.Two_Up.resources
+\\Mac\Home\Desktop\classassignmentMSI\ClassAssignment\ClassAssignment\bin\Debug\ClassAssignment.exe.config
+\\Mac\Home\Desktop\classassignmentMSI\ClassAssignment\ClassAssignment\obj\Debug\ClassAssignment.exe
+\\Mac\Home\Desktop\classassignmentMSI\ClassAssignment\ClassAssignment\obj\Debug\ClassAssignment.pdb
+\\Mac\Home\Desktop\classassignmentMSI\ClassAssignment\ClassAssignment\obj\Debug\ClassAssignment.csprojResolveAssemblyReference.cache
+\\Mac\Home\Desktop\classassignmentMSI\ClassAssignment\ClassAssignment\obj\Debug\ClassAssignment.Form1.resources
+\\Mac\Home\Desktop\classassignmentMSI\ClassAssignment\ClassAssignment\obj\Debug\ClassAssignment.Properties.Resources.resources
+\\Mac\Home\Desktop\classassignmentMSI\ClassAssignment\ClassAssignment\obj\Debug\ClassAssignment.Snake_Eyes.resources
+\\Mac\Home\Desktop\classassignmentMSI\ClassAssignment\ClassAssignment\obj\Debug\ClassAssignment.Two_Up.resources
+\\Mac\Home\Desktop\classassignmentMSI\ClassAssignment\ClassAssignment\obj\Debug\ClassAssignment.Which_Card_Game.resources
+\\Mac\Home\Desktop\classassignmentMSI\ClassAssignment\ClassAssignment\obj\Debug\ClassAssignment.Which_Dice_Game.resources
+\\Mac\Home\Desktop\classassignmentMSI\ClassAssignment\ClassAssignment\obj\Debug\ClassAssignment.csproj.GenerateResource.Cache
+\\Mac\Home\Desktop\classassignmentMSI\ClassAssignment\ClassAssignment\bin\Debug\ClassAssignment.exe
+\\Mac\Home\Desktop\classassignmentMSI\ClassAssignment\ClassAssignment\bin\Debug\ClassAssignment.pdb
+\\Mac\Home\Desktop\classassignmentMSI\ClassAssignment\ClassAssignment\bin\Debug\Games Logic Library.dll
+\\Mac\Home\Desktop\classassignmentMSI\ClassAssignment\ClassAssignment\bin\Debug\Games Logic Library.pdb
+\\Mac\Home\Desktop\classassignmentMSI\ClassAssignment\ClassAssignment\bin\Debug\Low Level Objects Library.dll
+\\Mac\Home\Desktop\classassignmentMSI\ClassAssignment\ClassAssignment\bin\Debug\Low Level Objects Library.pdb
+\\Mac\Home\Desktop\classassignmentMSI\ClassAssignment\ClassAssignment\obj\Debug\ClassAssignment.ChooseSuitForm.resources
+\\Mac\Home\Desktop\classassignmentMSI\ClassAssignment\ClassAssignment\obj\Debug\ClassAssignment.Crazy_Eights.resources
+\\Mac\Home\Desktop\classassignmentMSI\ClassAssignment\ClassAssignment\obj\Debug\ClassAssignment.Twenty_One.resources
