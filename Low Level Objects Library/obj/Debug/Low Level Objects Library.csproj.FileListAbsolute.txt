@@ -3,3 +3,8 @@ D:\Jonny\2016\Uni Stuff\Semester 2 2016\ClassAssignment\Low Level Objects Librar
 D:\Jonny\2016\Uni Stuff\Semester 2 2016\ClassAssignment\Low Level Objects Library\obj\Debug\Low Level Objects Library.csprojResolveAssemblyReference.cache
 D:\Jonny\2016\Uni Stuff\Semester 2 2016\ClassAssignment\Low Level Objects Library\obj\Debug\Low Level Objects Library.dll
 D:\Jonny\2016\Uni Stuff\Semester 2 2016\ClassAssignment\Low Level Objects Library\obj\Debug\Low Level Objects Library.pdb
+\\Mac\Home\Desktop\classassignmentMSI\ClassAssignment\Low Level Objects Library\bin\Debug\Low Level Objects Library.dll
+\\Mac\Home\Desktop\classassignmentMSI\ClassAssignment\Low Level Objects Library\bin\Debug\Low Level Objects Library.pdb
+\\Mac\Home\Desktop\classassignmentMSI\ClassAssignment\Low Level Objects Library\obj\Debug\Low Level Objects Library.dll
+\\Mac\Home\Desktop\classassignmentMSI\ClassAssignment\Low Level Objects Library\obj\Debug\Low Level Objects Library.pdb
+\\Mac\Home\Desktop\classassignmentMSI\ClassAssignment\Low Level Objects Library\obj\Debug\Low Level Objects Library.csprojResolveAssemblyReference.cache

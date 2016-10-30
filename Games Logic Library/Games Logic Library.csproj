@@ -30,9 +30,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Low Level Objects Library">
-      <HintPath>..\Low Level Objects Library\bin\Debug\Low Level Objects Library.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -43,8 +40,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Crazy_Eight_Game.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Snake_Eyes_Game.cs" />
+    <Compile Include="Twenty_One_Game.cs" />
     <Compile Include="Two Up Game.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Low Level Objects Library\Low Level Objects Library.csproj">
+      <Project>{488e995a-315f-41f8-828d-ff4d7a17ab86}</Project>
+      <Name>Low Level Objects Library</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
