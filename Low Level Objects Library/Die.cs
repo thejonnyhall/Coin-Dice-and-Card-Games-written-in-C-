@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Low_Level_Objects_Library {
-    class Die {
+    public class Die {
         private static Random randomNumber = new Random();
 
         private const int SIX_SIDED = 6;
