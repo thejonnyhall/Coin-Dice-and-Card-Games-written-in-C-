@@ -14,13 +14,13 @@ namespace ClassAssignment {
     public partial class Twenty_One : Form {
         private const int NUM_PLAYERS = 2;
         private const int MAX_CARDS = 8;
-        private const int BLACK_JACK = 21;
+        private const int BLACKJACK = 21;
         private const string WIN = "You win!";
         private const string LOSE = "You lose!";
         private const string DRAW = "It was a draw!";
 
         /// <summary>
-        /// Main entry point of form
+        /// The Main Entry Point of the Game
         /// </summary>
         public Twenty_One() {
             InitializeComponent();
@@ -30,7 +30,8 @@ namespace ClassAssignment {
         }
 
         /// <summary>
-        /// Updates all visuals when needed
+        /// Updates the game to assist with the smoothness 
+        /// of the gameplay, When necessary.
         /// </summary>
         private void RestartGame() {
             TableLayoutPanel[] tableLayoutPanels = { playerTableLayoutPanel, dealerTableLayoutPanel };
@@ -69,8 +70,8 @@ namespace ClassAssignment {
         }// End DisplayGuiHand
 
         /// <summary>
-        /// First sequence of the game where both the Player and Dealer are dealt 2 cards
-        /// Enables buttons for next sequence of the game
+        /// Starts the game where Computer and Player are both dealt
+        /// two random cards, also setting up the buttons to play the game
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
@@ -82,7 +83,7 @@ namespace ClassAssignment {
                 Twenty_One_Game.DealOneCardTo(1);
             }
             RestartGame();
-            if (Twenty_One_Game.GetTotalPoints(1) == BLACK_JACK) {
+            if (Twenty_One_Game.GetTotalPoints(1) == BLACKJACK) {
                 Twenty_One_Game.PlayForDealer();
                 dealButton.Enabled = true;
                 hitButton.Enabled = false;
@@ -108,9 +109,10 @@ namespace ClassAssignment {
         }
 
         /// <summary>
-        /// One of three possible options for the second sequence of the game
-        /// Deals one card to the player and checks if it's an ace
-        /// Enables and disables buttons depending on whether the player has busted
+        /// Once a user clicks this button, they are dealt another card, 
+        /// and checks whether it is an Ace or not.
+        /// The idea is to get a score of 21 or under
+        /// If the score is more than 21 (BlackJack), They are Busted.
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
@@ -120,7 +122,7 @@ namespace ClassAssignment {
             RestartGame();
             if (Twenty_One_Game.GetHand(0).GetCount() == MAX_CARDS) {
                 hitButton.Enabled = false;
-            } else if (Twenty_One_Game.GetTotalPoints(0) > BLACK_JACK) {
+            } else if (Twenty_One_Game.GetTotalPoints(0) > BLACKJACK) {
                 hitButton.Enabled = false;
                 standButton.Enabled = false;
                 dealButton.Enabled = true;
@@ -128,8 +130,9 @@ namespace ClassAssignment {
         }
 
         /// <summary>
-        /// One of three possible options for the second sequence of the game
-        /// Stands for the player, allowing the Dealer to take a turn
+        /// Once a user clicks this button, they are out of that particular round
+        /// waiting for either the computer to Bust or win.
+        /// A player would usually do this when they are close to 21.
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
@@ -142,8 +145,8 @@ namespace ClassAssignment {
         }
 
         /// <summary>
-        /// Checks for ace depending on a given card
-        /// Asks the user for which value they want to assign it
+        /// This Function checks for an ace, and asks the user
+        /// Whether they want to count the ace as 1 or not.
         /// </summary>
         /// <param name="card"></param>
         private void Check_Ace(Card card) {

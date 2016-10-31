@@ -96,10 +96,10 @@
             // dealerLabel
             // 
             this.dealerLabel.AutoSize = true;
-            this.dealerLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dealerLabel.Location = new System.Drawing.Point(266, 19);
+            this.dealerLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dealerLabel.Location = new System.Drawing.Point(256, 19);
             this.dealerLabel.Name = "dealerLabel";
-            this.dealerLabel.Size = new System.Drawing.Size(71, 24);
+            this.dealerLabel.Size = new System.Drawing.Size(81, 25);
             this.dealerLabel.TabIndex = 3;
             this.dealerLabel.Text = "Dealer";
             // 
@@ -164,10 +164,10 @@
             // playerLabel
             // 
             this.playerLabel.AutoSize = true;
-            this.playerLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.playerLabel.Location = new System.Drawing.Point(266, 317);
+            this.playerLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.playerLabel.Location = new System.Drawing.Point(258, 317);
             this.playerLabel.Name = "playerLabel";
-            this.playerLabel.Size = new System.Drawing.Size(68, 24);
+            this.playerLabel.Size = new System.Drawing.Size(79, 25);
             this.playerLabel.TabIndex = 8;
             this.playerLabel.Text = "Player";
             // 
