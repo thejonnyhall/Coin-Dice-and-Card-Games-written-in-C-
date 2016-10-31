@@ -112,14 +112,14 @@ namespace ClassAssignment {
             UpdatePictures();
         }
 
-        private void button3_Click(object sender, EventArgs e) {
-            Close();
-            MessageBox.Show(Snake_Eyes_Game.GetRollOutcome());
-        }
-
-        private void button2_Click(object sender, EventArgs e) {
+        private void continueButton_Click(object sender, EventArgs e) {
             rollDiceButton.Enabled = true;
             continueButton.Enabled = false;
+        }
+
+        private void cancelButton_Click(object sender, EventArgs e) {
+            Close();
+            MessageBox.Show(Snake_Eyes_Game.GetRollOutcome());
         }
     }
 }

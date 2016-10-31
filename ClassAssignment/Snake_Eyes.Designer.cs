@@ -121,6 +121,7 @@
             this.continueButton.TabIndex = 7;
             this.continueButton.Text = "Continue Playing";
             this.continueButton.UseVisualStyleBackColor = true;
+            this.continueButton.Click += new System.EventHandler(this.continueButton_Click);
             // 
             // cancelButton
             // 
@@ -131,6 +132,7 @@
             this.cancelButton.TabIndex = 8;
             this.cancelButton.Text = "Cancel Game";
             this.cancelButton.UseVisualStyleBackColor = true;
+            this.cancelButton.Click += new System.EventHandler(this.cancelButton_Click);
             // 
             // label5
             // 
