@@ -24,15 +24,6 @@ namespace ClassAssignment {
             UpdateImages();
         }
 
-        /// <summary>
-        /// Updates the images in the picture box based on the its parameters
-        /// specifying which box to affect and if the coin is heads or not.
-        /// </summary>
-        /// <param name="whichPB"></param>
-        /// <param name="isHeads"></param>
-        private void UpdatePictureBoxImage(PictureBox whichPB, bool isHeads) {
-            whichPB.Image = Images.GetCoinImage(isHeads);
-        }// End of UpdatePictureBoxImage method
 
 
         /// <summary>
@@ -44,17 +35,19 @@ namespace ClassAssignment {
         } // End of UpdateImages Method
 
 
-        // Closes the form
-        private void Two_Up_CancelGame_Button_Click(object sender, EventArgs e) {
-            this.Close();
-        } // End of Two_Up_CancelGame_Button_Click method
+        /// <summary>
+        /// Updates the images in the picture box based on the its parameters
+        /// specifying which box to affect and if the coin is heads or not.
+        /// </summary>
+        /// <param name="whichPB"></param>
+        /// <param name="isHeads"></param>
+        private void UpdatePictureBoxImage(PictureBox whichPB, bool isHeads)
+        {
+            whichPB.Image = Images.GetCoinImage(isHeads);
+        }// End of UpdatePictureBoxImage method
 
 
-        // Clicking the 'Play Again' Button enables the 'Throw Coin' Button and makes itself invisible
-        private void Two_Up_PlayAgain_Button_Click(object sender, EventArgs e) {
-            Two_Up_ThrowCoin_Button.Enabled = true;
-            Two_Up_PlayAgain_Button.Visible = false;
-        } // End of Two_Up_PlayAgain_Button_Click method
+
 
 
         // Event Handler that initialises the coin animation timer
@@ -99,6 +92,20 @@ namespace ClassAssignment {
             }
         } // End of Two_Up_Timer_Tick method
 
+
+        // Closes the form
+        private void Two_Up_CancelGame_Button_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        } // End of Two_Up_CancelGame_Button_Click method
+
+
+        // Clicking the 'Play Again' Button enables the 'Throw Coin' Button and makes itself invisible
+        private void Two_Up_PlayAgain_Button_Click(object sender, EventArgs e)
+        {
+            Two_Up_ThrowCoin_Button.Enabled = true;
+            Two_Up_PlayAgain_Button.Visible = false;
+        } // End of Two_Up_PlayAgain_Button_Click method
 
     }
 }

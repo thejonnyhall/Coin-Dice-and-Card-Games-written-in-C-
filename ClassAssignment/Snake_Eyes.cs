@@ -50,7 +50,7 @@ namespace ClassAssignment {
                 secondRoll = Snake_Eyes_Game.FirstRoll();
                 if (!secondRoll) {
                     label1.Text = (Snake_Eyes_Game.GetPlayerPoints() > 0) ? win : (Snake_Eyes_Game.GetHousePoints() > 0) ? lose : draw;
-                    if (Snake_Eyes_Game.GetRollTotal() == 2) {
+                   if (Snake_Eyes_Game.GetRollTotal() == 2) {
                         label2.Text = string.Format(pointsWon, 2);
                     } else if (Snake_Eyes_Game.GetRollTotal() == 7 || Snake_Eyes_Game.GetRollTotal() == 11) {
                         label2.Text = string.Format(pointsWon, 1);
@@ -86,16 +86,6 @@ namespace ClassAssignment {
         }
 
         /// <summary>
-        /// Continues the Game and enables more rolling of the dice
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
-        private void continueButton_Click(object sender, EventArgs e) {
-            rollDiceButton.Enabled = true;
-            continueButton.Enabled = false;
-        }
-
-        /// <summary>
         /// Tells the player if they have won or lost, then cancels the game. 
         /// </summary>
         /// <param name="sender"></param>
@@ -103,6 +93,17 @@ namespace ClassAssignment {
         private void cancelButton_Click(object sender, EventArgs e) {
             Close();
             MessageBox.Show(Snake_Eyes_Game.GetRollOutcome());
+        }
+
+        /// <summary>
+        /// Continues the Game and enables more rolling of the dice
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void continueButton_Click(object sender, EventArgs e)
+        {
+            rollDiceButton.Enabled = true;
+            continueButton.Enabled = false;
         }
     }
 }
