@@ -9,6 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
 namespace ClassAssignment {
     public partial class Snake_Eyes : Form {
         bool secondRoll = false;
@@ -56,10 +57,12 @@ namespace ClassAssignment {
                     } else if (Snake_Eyes_Game.GetRollTotal() == 3 || Snake_Eyes_Game.GetRollTotal() == 12) {
                         label2.Text = string.Format(pointsLost, 2);
                     }
+                    continueButton.Enabled = false;
                 } else {
                     label1.Text = rollAgain;
                     label2.Text = string.Format(requiredPoints, Snake_Eyes_Game.GetPossiblePoints());
-                    continueButton.Enabled = true;
+                    continueButton.Enabled = false;
+                    rollDiceButton.Enabled = true;
                 }
             } else {
                 anotherRoll = Snake_Eyes_Game.AnotherRoll();
@@ -77,7 +80,6 @@ namespace ClassAssignment {
             label5.Text = Snake_Eyes_Game.GetPlayerPoints().ToString();
             label6.Text = Snake_Eyes_Game.GetHousePoints().ToString();
             continueButton.Enabled = true;
-            rollDiceButton.Enabled = false;
             cancelButton.Enabled = true;
 
             UpdatePictures();
