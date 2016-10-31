@@ -45,11 +45,11 @@ namespace Games_Logic_Library {
             if (pile[0].GetCount() == 0) {
                 pile[0] = pile[1];
             }
-            Card dealtCard = pile[0].DealOneCard(); //deal a card from draw pile
+            //deal a card from draw pile
+            Card dealtCard = pile[0].DealOneCard(); 
             hands[hand].Add(dealtCard);
             return dealtCard;
         } // Returns card for image function later on
-
 
         /// <summary>
         /// Deals a card to the discard pile
@@ -156,7 +156,9 @@ namespace Games_Logic_Library {
 
 
         /// <summary>
-        /// Logic for the computer's playing habits, plays any cards of the same FaceValue, Suit, or a card with a value of eight in that order
+        /// Logic for the computer's playing habits, 
+        /// plays any cards of the same FaceValue, Suit, 
+        /// or a card with a value of eight in that order
         /// </summary>
         /// <returns></returns>
         public static Card ComputerPlayCard() {
@@ -187,7 +189,8 @@ namespace Games_Logic_Library {
 
 
         /// <summary>
-        /// Removes the specified card from the Computer's hand and adds it to the discard Pile
+        /// Removes the specified card from the Computer's hand
+        /// and adds it to the discard Pile
         /// </summary>
         /// <param name="clickedCard"></param>
         public static void RemoveCardFromComputer(Card clickedCard) {
