@@ -38,7 +38,7 @@ namespace ClassAssignment {
 
 
             // Load card images.
-            backOfCardImage = Images.LoadImage("Cards", "CardBack_Red");
+            backOfCardImage = Images.LoadImage("Cards", "CardBack_Blue");
             cardImages = new Bitmap[CardPile.NUM_SUITS, CardPile.NUM_CARDS_PER_SUIT];
 
             for (Suit suit = Suit.Clubs; suit <= Suit.Spades; suit++) {
