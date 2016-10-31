@@ -61,8 +61,6 @@ namespace ClassAssignment {
                 } else {
                     label1.Text = rollAgain;
                     label2.Text = string.Format(requiredPoints, Snake_Eyes_Game.GetPossiblePoints());
-                    continueButton.Enabled = false;
-                    rollDiceButton.Enabled = true;
                 }
             } else {
                 anotherRoll = Snake_Eyes_Game.AnotherRoll();
@@ -79,6 +77,7 @@ namespace ClassAssignment {
             label2.Visible = true;
             label5.Text = Snake_Eyes_Game.GetPlayerPoints().ToString();
             label6.Text = Snake_Eyes_Game.GetHousePoints().ToString();
+            rollDiceButton.Enabled = false;
             continueButton.Enabled = true;
             cancelButton.Enabled = true;
 
