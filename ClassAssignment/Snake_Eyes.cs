@@ -30,42 +30,13 @@ namespace ClassAssignment {
             }
         }
         /// <summary>
-        //First Roll
-        //            => sum = 4
-        //		=> needs a 2nd rolls
-        //Second Roll
-        //    => sum = 4
-        //		=> needs a NEW roll
-        //        => playerPoints += 4
-        //First Roll
-        //    => sum = 2
-        //		=> news a NEW roll
-        //        => playerPoints += 2
-        //First Roll
-        //    => sum = 5
-        //		=> needs a 2nd roll
-        //Second Roll
-        //    => sum = 5
-        //		=> needs a NEW roll
-        //First Roll
-        //    => sum = 6
-        //		=> needs a 2nd roll
-        //Second Roll
-        //    => sum = 7
-        //		=> needs a NEW roll
-        //First Roll
-        //    => sum = 2
-        //		=> news a NEW roll
-        //First Roll
-        //    => sum = 2
-        //		=> news a NEW roll
-        //First Roll
-        //    => sum = 2
-        //		=> news a NEW roll
+        /// The Main Rolling the Dice Button
+        /// Tells the user if they need another roll in order to win
+        /// or they have rolled snake eyes on the first go
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
-        private void button1_Click(object sender, EventArgs e) {
+        private void rollDiceButton_Click(object sender, EventArgs e) {
             string win = "Congratulations you won!";
             string lose = "Sorry you lost!";
             string draw = "It was a draw!";
@@ -112,11 +83,21 @@ namespace ClassAssignment {
             UpdatePictures();
         }
 
+        /// <summary>
+        /// Continues the Game and enables more rolling of the dice
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void continueButton_Click(object sender, EventArgs e) {
             rollDiceButton.Enabled = true;
             continueButton.Enabled = false;
         }
 
+        /// <summary>
+        /// Tells the player if they have won or lost, then cancels the game. 
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void cancelButton_Click(object sender, EventArgs e) {
             Close();
             MessageBox.Show(Snake_Eyes_Game.GetRollOutcome());

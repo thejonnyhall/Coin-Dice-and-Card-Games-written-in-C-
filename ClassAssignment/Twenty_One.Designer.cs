@@ -39,8 +39,7 @@
             this.hitButton = new System.Windows.Forms.Button();
             this.standButton = new System.Windows.Forms.Button();
             this.cancelButton = new System.Windows.Forms.Button();
-            this.testButton = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
+            this.playerAces = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
@@ -92,6 +91,7 @@
             this.dealerBustedLabel.Size = new System.Drawing.Size(91, 24);
             this.dealerBustedLabel.TabIndex = 2;
             this.dealerBustedLabel.Text = "BUSTED";
+            this.dealerBustedLabel.Visible = false;
             // 
             // dealerLabel
             // 
@@ -181,10 +181,11 @@
             this.playerBustedLabel.Size = new System.Drawing.Size(91, 24);
             this.playerBustedLabel.TabIndex = 7;
             this.playerBustedLabel.Text = "BUSTED";
+            this.playerBustedLabel.Visible = false;
             // 
             // dealButton
             // 
-            this.dealButton.Location = new System.Drawing.Point(38, 376);
+            this.dealButton.Location = new System.Drawing.Point(60, 376);
             this.dealButton.Name = "dealButton";
             this.dealButton.Size = new System.Drawing.Size(75, 23);
             this.dealButton.TabIndex = 12;
@@ -194,7 +195,7 @@
             // 
             // hitButton
             // 
-            this.hitButton.Location = new System.Drawing.Point(169, 376);
+            this.hitButton.Location = new System.Drawing.Point(187, 376);
             this.hitButton.Name = "hitButton";
             this.hitButton.Size = new System.Drawing.Size(75, 23);
             this.hitButton.TabIndex = 13;
@@ -204,43 +205,34 @@
             // 
             // standButton
             // 
-            this.standButton.Location = new System.Drawing.Point(297, 376);
+            this.standButton.Location = new System.Drawing.Point(317, 376);
             this.standButton.Name = "standButton";
             this.standButton.Size = new System.Drawing.Size(75, 23);
             this.standButton.TabIndex = 14;
             this.standButton.Text = "Stand";
             this.standButton.UseVisualStyleBackColor = true;
+            this.standButton.Click += new System.EventHandler(this.standButton_Click);
             // 
             // cancelButton
             // 
-            this.cancelButton.Location = new System.Drawing.Point(410, 376);
+            this.cancelButton.Location = new System.Drawing.Point(442, 376);
             this.cancelButton.Name = "cancelButton";
             this.cancelButton.Size = new System.Drawing.Size(99, 23);
             this.cancelButton.TabIndex = 15;
             this.cancelButton.Text = "Cancel Game";
             this.cancelButton.UseVisualStyleBackColor = true;
-            this.cancelButton.Click += new System.EventHandler(this.cancelButton_Click);
+            this.cancelButton.Click += new System.EventHandler(this.cancelbutton_Click);
             // 
-            // testButton
+            // playerAces
             // 
-            this.testButton.Location = new System.Drawing.Point(517, 348);
-            this.testButton.Name = "testButton";
-            this.testButton.Size = new System.Drawing.Size(75, 23);
-            this.testButton.TabIndex = 16;
-            this.testButton.Text = "Test";
-            this.testButton.UseVisualStyleBackColor = true;
-            this.testButton.Click += new System.EventHandler(this.testButton_Click);
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(258, 348);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(16, 18);
-            this.label1.TabIndex = 17;
-            this.label1.Text = "0";
+            this.playerAces.AutoSize = true;
+            this.playerAces.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.playerAces.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.playerAces.Location = new System.Drawing.Point(258, 348);
+            this.playerAces.Name = "playerAces";
+            this.playerAces.Size = new System.Drawing.Size(16, 18);
+            this.playerAces.TabIndex = 17;
+            this.playerAces.Text = "0";
             // 
             // label2
             // 
@@ -258,8 +250,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(604, 421);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.testButton);
+            this.Controls.Add(this.playerAces);
             this.Controls.Add(this.cancelButton);
             this.Controls.Add(this.standButton);
             this.Controls.Add(this.hitButton);
@@ -278,7 +269,6 @@
             this.Controls.Add(this.dealerTableLayoutPanel);
             this.Name = "Twenty_One";
             this.Text = "Twenty One";
-            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Twenty_One_FormClosing);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -302,8 +292,7 @@
         private System.Windows.Forms.Button hitButton;
         private System.Windows.Forms.Button standButton;
         private System.Windows.Forms.Button cancelButton;
-        private System.Windows.Forms.Button testButton;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label playerAces;
         private System.Windows.Forms.Label label2;
     }
 }

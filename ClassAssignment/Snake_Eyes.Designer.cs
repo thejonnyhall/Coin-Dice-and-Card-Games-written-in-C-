@@ -67,7 +67,7 @@
             this.rollDiceButton.TabIndex = 2;
             this.rollDiceButton.Text = "Roll Dice";
             this.rollDiceButton.UseVisualStyleBackColor = true;
-            this.rollDiceButton.Click += new System.EventHandler(this.button1_Click);
+            this.rollDiceButton.Click += new System.EventHandler(this.rollDiceButton_Click);
             // 
             // pictureBox2
             // 
