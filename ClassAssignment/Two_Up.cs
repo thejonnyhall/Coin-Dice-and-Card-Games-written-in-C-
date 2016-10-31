@@ -30,8 +30,8 @@ namespace ClassAssignment {
         /// Updates Images in both boxes using the UpdatePictureBoxImage method
         /// </summary>
         private void UpdateImages() {
-            UpdatePictureBoxImage(Two_Up_CoinBox_1, Two_Up_Game.IsHeads(1));
-            UpdatePictureBoxImage(Two_Up_CoinBox_2, Two_Up_Game.IsHeads(2));
+            UpdatePictureBoxImage(TwoUpCoinBox1, Two_Up_Game.IsHeads(1));
+            UpdatePictureBoxImage(TwoUpCoinBox2, Two_Up_Game.IsHeads(2));
         } // End of UpdateImages Method
 
 
@@ -53,8 +53,8 @@ namespace ClassAssignment {
         // Event Handler that initialises the coin animation timer
         private void Two_Up_ThrowCoin_Button_Click(object sender, EventArgs e) {
             timerClickCounter = 0;
-            Two_Up_ThrowCoin_Button.Enabled = false;
-            Two_Up_Timer.Start();
+            TwoUpThrowCoinButton.Enabled = false;
+            TwoUpTimer.Start();
         } // End of Two_Up_ThrowCoin_Button_Click method
 
 
@@ -64,14 +64,14 @@ namespace ClassAssignment {
         /// </summary>
         private void Play_Two_Up() {
             Two_Up_Game.TossCoins();
-            Two_Up_Outcome_Label.Visible = true;
-            Two_Up_Outcome_Label.Text = Two_Up_Game.TossOutcome();
-            Two_Up_ComputerScore_Number.Text = Two_Up_Game.GetComputersScore().ToString();
-            Two_Up_PlayerScore_Number.Text = Two_Up_Game.GetPlayersScore().ToString();
+            TwoUpOutcomeLabel.Visible = true;
+            TwoUpOutcomeLabel.Text = Two_Up_Game.TossOutcome();
+            TwoUpComputerScoreNumber.Text = Two_Up_Game.GetComputersScore().ToString();
+            TwoUpPlayerScoreNumber.Text = Two_Up_Game.GetPlayersScore().ToString();
             UpdateImages();
             if (Two_Up_Game.TossOutcome() != "Odds") {
-                Two_Up_PlayAgain_Button.Visible = true;
-                Two_Up_ThrowCoin_Button.Enabled = false;
+                TwoUpPlayAgainButton.Visible = true;
+                TwoUpThrowCoinButton.Enabled = false;
             }
         }
 
@@ -80,13 +80,13 @@ namespace ClassAssignment {
         /// and calls the Play_Two_Up function at the end
         /// </summary>
         private void Two_Up_Timer_Tick(object sender, EventArgs e) {
-            UpdatePictureBoxImage(Two_Up_CoinBox_1, tempCoinState);
-            UpdatePictureBoxImage(Two_Up_CoinBox_2, !tempCoinState);
+            UpdatePictureBoxImage(TwoUpCoinBox1, tempCoinState);
+            UpdatePictureBoxImage(TwoUpCoinBox2, !tempCoinState);
             tempCoinState = !tempCoinState;
             if (timerClickCounter == 10) {
                 Play_Two_Up();
-                Two_Up_ThrowCoin_Button.Enabled = true;
-                Two_Up_Timer.Stop();
+                TwoUpThrowCoinButton.Enabled = true;
+                TwoUpTimer.Stop();
             } else {
                 timerClickCounter++;
             }
@@ -103,8 +103,8 @@ namespace ClassAssignment {
         // Clicking the 'Play Again' Button enables the 'Throw Coin' Button and makes itself invisible
         private void Two_Up_PlayAgain_Button_Click(object sender, EventArgs e)
         {
-            Two_Up_ThrowCoin_Button.Enabled = true;
-            Two_Up_PlayAgain_Button.Visible = false;
+            TwoUpThrowCoinButton.Enabled = true;
+            TwoUpPlayAgainButton.Visible = false;
         } // End of Two_Up_PlayAgain_Button_Click method
 
     }

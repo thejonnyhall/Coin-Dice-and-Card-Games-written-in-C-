@@ -24,139 +24,139 @@
         /// </summary>
         private void InitializeComponent() {
             this.components = new System.ComponentModel.Container();
-            this.Two_Up_CoinBox_2 = new System.Windows.Forms.PictureBox();
-            this.Two_Up_CoinBox_1 = new System.Windows.Forms.PictureBox();
-            this.Two_Up_ThrowCoin_Button = new System.Windows.Forms.Button();
-            this.Two_Up_PlayAgain_Button = new System.Windows.Forms.Button();
-            this.Two_Up_CancelGame_Button = new System.Windows.Forms.Button();
-            this.Two_Up_PlayerScore_Label = new System.Windows.Forms.Label();
-            this.Two_Up_ComputerScore_Label = new System.Windows.Forms.Label();
-            this.Two_Up_PlayerScore_Number = new System.Windows.Forms.Label();
-            this.Two_Up_ComputerScore_Number = new System.Windows.Forms.Label();
-            this.Two_Up_Outcome_Label = new System.Windows.Forms.Label();
-            this.Two_Up_Timer = new System.Windows.Forms.Timer(this.components);
-            ((System.ComponentModel.ISupportInitialize)(this.Two_Up_CoinBox_2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Two_Up_CoinBox_1)).BeginInit();
+            this.TwoUpCoinBox2 = new System.Windows.Forms.PictureBox();
+            this.TwoUpCoinBox1 = new System.Windows.Forms.PictureBox();
+            this.TwoUpThrowCoinButton = new System.Windows.Forms.Button();
+            this.TwoUpPlayAgainButton = new System.Windows.Forms.Button();
+            this.TwoUpCancelGameButton = new System.Windows.Forms.Button();
+            this.TwoUpPlayerScoreLabel = new System.Windows.Forms.Label();
+            this.TwoUpComputerScoreLabel = new System.Windows.Forms.Label();
+            this.TwoUpPlayerScoreNumber = new System.Windows.Forms.Label();
+            this.TwoUpComputerScoreNumber = new System.Windows.Forms.Label();
+            this.TwoUpOutcomeLabel = new System.Windows.Forms.Label();
+            this.TwoUpTimer = new System.Windows.Forms.Timer(this.components);
+            ((System.ComponentModel.ISupportInitialize)(this.TwoUpCoinBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.TwoUpCoinBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // Two_Up_CoinBox_2
+            // TwoUpCoinBox2
             // 
-            this.Two_Up_CoinBox_2.Location = new System.Drawing.Point(326, 27);
-            this.Two_Up_CoinBox_2.Name = "Two_Up_CoinBox_2";
-            this.Two_Up_CoinBox_2.Size = new System.Drawing.Size(150, 150);
-            this.Two_Up_CoinBox_2.TabIndex = 0;
-            this.Two_Up_CoinBox_2.TabStop = false;
+            this.TwoUpCoinBox2.Location = new System.Drawing.Point(326, 27);
+            this.TwoUpCoinBox2.Name = "Two_Up_CoinBox_2";
+            this.TwoUpCoinBox2.Size = new System.Drawing.Size(150, 150);
+            this.TwoUpCoinBox2.TabIndex = 0;
+            this.TwoUpCoinBox2.TabStop = false;
             // 
-            // Two_Up_CoinBox_1
+            // TwoUpCoinBox1
             // 
-            this.Two_Up_CoinBox_1.Location = new System.Drawing.Point(36, 27);
-            this.Two_Up_CoinBox_1.Name = "Two_Up_CoinBox_1";
-            this.Two_Up_CoinBox_1.Size = new System.Drawing.Size(150, 150);
-            this.Two_Up_CoinBox_1.TabIndex = 1;
-            this.Two_Up_CoinBox_1.TabStop = false;
+            this.TwoUpCoinBox1.Location = new System.Drawing.Point(36, 27);
+            this.TwoUpCoinBox1.Name = "Two_Up_CoinBox_1";
+            this.TwoUpCoinBox1.Size = new System.Drawing.Size(150, 150);
+            this.TwoUpCoinBox1.TabIndex = 1;
+            this.TwoUpCoinBox1.TabStop = false;
             // 
-            // Two_Up_ThrowCoin_Button
+            // TwoUpThrowCoinButton
             // 
-            this.Two_Up_ThrowCoin_Button.Location = new System.Drawing.Point(36, 281);
-            this.Two_Up_ThrowCoin_Button.Name = "Two_Up_ThrowCoin_Button";
-            this.Two_Up_ThrowCoin_Button.Size = new System.Drawing.Size(86, 36);
-            this.Two_Up_ThrowCoin_Button.TabIndex = 2;
-            this.Two_Up_ThrowCoin_Button.Text = "Throw Coin";
-            this.Two_Up_ThrowCoin_Button.UseVisualStyleBackColor = true;
-            this.Two_Up_ThrowCoin_Button.Click += new System.EventHandler(this.Two_Up_ThrowCoin_Button_Click);
+            this.TwoUpThrowCoinButton.Location = new System.Drawing.Point(36, 281);
+            this.TwoUpThrowCoinButton.Name = "Two_Up_ThrowCoin_Button";
+            this.TwoUpThrowCoinButton.Size = new System.Drawing.Size(86, 36);
+            this.TwoUpThrowCoinButton.TabIndex = 2;
+            this.TwoUpThrowCoinButton.Text = "Throw Coin";
+            this.TwoUpThrowCoinButton.UseVisualStyleBackColor = true;
+            this.TwoUpThrowCoinButton.Click += new System.EventHandler(this.Two_Up_ThrowCoin_Button_Click);
             // 
-            // Two_Up_PlayAgain_Button
+            // TwoUpPlayAgainButton
             // 
-            this.Two_Up_PlayAgain_Button.Location = new System.Drawing.Point(211, 281);
-            this.Two_Up_PlayAgain_Button.Name = "Two_Up_PlayAgain_Button";
-            this.Two_Up_PlayAgain_Button.Size = new System.Drawing.Size(87, 36);
-            this.Two_Up_PlayAgain_Button.TabIndex = 3;
-            this.Two_Up_PlayAgain_Button.Text = "Play Again";
-            this.Two_Up_PlayAgain_Button.UseVisualStyleBackColor = true;
-            this.Two_Up_PlayAgain_Button.Visible = false;
-            this.Two_Up_PlayAgain_Button.Click += new System.EventHandler(this.Two_Up_PlayAgain_Button_Click);
+            this.TwoUpPlayAgainButton.Location = new System.Drawing.Point(211, 281);
+            this.TwoUpPlayAgainButton.Name = "Two_Up_PlayAgain_Button";
+            this.TwoUpPlayAgainButton.Size = new System.Drawing.Size(87, 36);
+            this.TwoUpPlayAgainButton.TabIndex = 3;
+            this.TwoUpPlayAgainButton.Text = "Play Again";
+            this.TwoUpPlayAgainButton.UseVisualStyleBackColor = true;
+            this.TwoUpPlayAgainButton.Visible = false;
+            this.TwoUpPlayAgainButton.Click += new System.EventHandler(this.Two_Up_PlayAgain_Button_Click);
             // 
-            // Two_Up_CancelGame_Button
+            // TwoUpCancelGameButton
             // 
-            this.Two_Up_CancelGame_Button.Location = new System.Drawing.Point(387, 281);
-            this.Two_Up_CancelGame_Button.Name = "Two_Up_CancelGame_Button";
-            this.Two_Up_CancelGame_Button.Size = new System.Drawing.Size(89, 36);
-            this.Two_Up_CancelGame_Button.TabIndex = 4;
-            this.Two_Up_CancelGame_Button.Text = "Cancel Game";
-            this.Two_Up_CancelGame_Button.UseVisualStyleBackColor = true;
-            this.Two_Up_CancelGame_Button.Click += new System.EventHandler(this.Two_Up_CancelGame_Button_Click);
+            this.TwoUpCancelGameButton.Location = new System.Drawing.Point(387, 281);
+            this.TwoUpCancelGameButton.Name = "Two_Up_CancelGame_Button";
+            this.TwoUpCancelGameButton.Size = new System.Drawing.Size(89, 36);
+            this.TwoUpCancelGameButton.TabIndex = 4;
+            this.TwoUpCancelGameButton.Text = "Cancel Game";
+            this.TwoUpCancelGameButton.UseVisualStyleBackColor = true;
+            this.TwoUpCancelGameButton.Click += new System.EventHandler(this.Two_Up_CancelGame_Button_Click);
             // 
-            // Two_Up_PlayerScore_Label
+            // TwoUpPlayerScoreLabel
             // 
-            this.Two_Up_PlayerScore_Label.AutoSize = true;
-            this.Two_Up_PlayerScore_Label.Location = new System.Drawing.Point(33, 220);
-            this.Two_Up_PlayerScore_Label.Name = "Two_Up_PlayerScore_Label";
-            this.Two_Up_PlayerScore_Label.Size = new System.Drawing.Size(72, 13);
-            this.Two_Up_PlayerScore_Label.TabIndex = 6;
-            this.Two_Up_PlayerScore_Label.Text = "Players Score";
+            this.TwoUpPlayerScoreLabel.AutoSize = true;
+            this.TwoUpPlayerScoreLabel.Location = new System.Drawing.Point(33, 220);
+            this.TwoUpPlayerScoreLabel.Name = "Two_Up_PlayerScore_Label";
+            this.TwoUpPlayerScoreLabel.Size = new System.Drawing.Size(72, 13);
+            this.TwoUpPlayerScoreLabel.TabIndex = 6;
+            this.TwoUpPlayerScoreLabel.Text = "Players Score";
             // 
-            // Two_Up_ComputerScore_Label
+            // TwoUpComputerScoreLabel
             // 
-            this.Two_Up_ComputerScore_Label.AutoSize = true;
-            this.Two_Up_ComputerScore_Label.Location = new System.Drawing.Point(367, 220);
-            this.Two_Up_ComputerScore_Label.Name = "Two_Up_ComputerScore_Label";
-            this.Two_Up_ComputerScore_Label.Size = new System.Drawing.Size(90, 13);
-            this.Two_Up_ComputerScore_Label.TabIndex = 7;
-            this.Two_Up_ComputerScore_Label.Text = "Computer\'s Score";
+            this.TwoUpComputerScoreLabel.AutoSize = true;
+            this.TwoUpComputerScoreLabel.Location = new System.Drawing.Point(367, 220);
+            this.TwoUpComputerScoreLabel.Name = "Two_Up_ComputerScore_Label";
+            this.TwoUpComputerScoreLabel.Size = new System.Drawing.Size(90, 13);
+            this.TwoUpComputerScoreLabel.TabIndex = 7;
+            this.TwoUpComputerScoreLabel.Text = "Computer\'s Score";
             // 
-            // Two_Up_PlayerScore_Number
+            // TwoUpPlayerScoreNumber
             // 
-            this.Two_Up_PlayerScore_Number.AutoSize = true;
-            this.Two_Up_PlayerScore_Number.BackColor = System.Drawing.Color.White;
-            this.Two_Up_PlayerScore_Number.Location = new System.Drawing.Point(104, 220);
-            this.Two_Up_PlayerScore_Number.Name = "Two_Up_PlayerScore_Number";
-            this.Two_Up_PlayerScore_Number.Size = new System.Drawing.Size(13, 13);
-            this.Two_Up_PlayerScore_Number.TabIndex = 8;
-            this.Two_Up_PlayerScore_Number.Text = "0";
+            this.TwoUpPlayerScoreNumber.AutoSize = true;
+            this.TwoUpPlayerScoreNumber.BackColor = System.Drawing.Color.White;
+            this.TwoUpPlayerScoreNumber.Location = new System.Drawing.Point(104, 220);
+            this.TwoUpPlayerScoreNumber.Name = "Two_Up_PlayerScore_Number";
+            this.TwoUpPlayerScoreNumber.Size = new System.Drawing.Size(13, 13);
+            this.TwoUpPlayerScoreNumber.TabIndex = 8;
+            this.TwoUpPlayerScoreNumber.Text = "0";
             // 
-            // Two_Up_ComputerScore_Number
+            // TwoUpComputerScoreNumber
             // 
-            this.Two_Up_ComputerScore_Number.AutoSize = true;
-            this.Two_Up_ComputerScore_Number.BackColor = System.Drawing.Color.White;
-            this.Two_Up_ComputerScore_Number.Location = new System.Drawing.Point(463, 220);
-            this.Two_Up_ComputerScore_Number.Name = "Two_Up_ComputerScore_Number";
-            this.Two_Up_ComputerScore_Number.Size = new System.Drawing.Size(13, 13);
-            this.Two_Up_ComputerScore_Number.TabIndex = 9;
-            this.Two_Up_ComputerScore_Number.Text = "0";
+            this.TwoUpComputerScoreNumber.AutoSize = true;
+            this.TwoUpComputerScoreNumber.BackColor = System.Drawing.Color.White;
+            this.TwoUpComputerScoreNumber.Location = new System.Drawing.Point(463, 220);
+            this.TwoUpComputerScoreNumber.Name = "Two_Up_ComputerScore_Number";
+            this.TwoUpComputerScoreNumber.Size = new System.Drawing.Size(13, 13);
+            this.TwoUpComputerScoreNumber.TabIndex = 9;
+            this.TwoUpComputerScoreNumber.Text = "0";
             // 
-            // Two_Up_Outcome_Label
+            // TwoUpOutcomeLabel
             // 
-            this.Two_Up_Outcome_Label.AutoSize = true;
-            this.Two_Up_Outcome_Label.Location = new System.Drawing.Point(234, 103);
-            this.Two_Up_Outcome_Label.Name = "Two_Up_Outcome_Label";
-            this.Two_Up_Outcome_Label.Size = new System.Drawing.Size(35, 13);
-            this.Two_Up_Outcome_Label.TabIndex = 5;
-            this.Two_Up_Outcome_Label.Text = "label1";
-            this.Two_Up_Outcome_Label.Visible = false;
+            this.TwoUpOutcomeLabel.AutoSize = true;
+            this.TwoUpOutcomeLabel.Location = new System.Drawing.Point(234, 103);
+            this.TwoUpOutcomeLabel.Name = "Two_Up_Outcome_Label";
+            this.TwoUpOutcomeLabel.Size = new System.Drawing.Size(35, 13);
+            this.TwoUpOutcomeLabel.TabIndex = 5;
+            this.TwoUpOutcomeLabel.Text = "label1";
+            this.TwoUpOutcomeLabel.Visible = false;
             // 
-            // Two_Up_Timer
+            // TwoUpTimer
             // 
-            this.Two_Up_Timer.Tick += new System.EventHandler(this.Two_Up_Timer_Tick);
+            this.TwoUpTimer.Tick += new System.EventHandler(this.Two_Up_Timer_Tick);
             // 
             // Two_Up
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(511, 346);
-            this.Controls.Add(this.Two_Up_ComputerScore_Number);
-            this.Controls.Add(this.Two_Up_PlayerScore_Number);
-            this.Controls.Add(this.Two_Up_ComputerScore_Label);
-            this.Controls.Add(this.Two_Up_PlayerScore_Label);
-            this.Controls.Add(this.Two_Up_Outcome_Label);
-            this.Controls.Add(this.Two_Up_CancelGame_Button);
-            this.Controls.Add(this.Two_Up_PlayAgain_Button);
-            this.Controls.Add(this.Two_Up_ThrowCoin_Button);
-            this.Controls.Add(this.Two_Up_CoinBox_1);
-            this.Controls.Add(this.Two_Up_CoinBox_2);
+            this.Controls.Add(this.TwoUpComputerScoreNumber);
+            this.Controls.Add(this.TwoUpPlayerScoreNumber);
+            this.Controls.Add(this.TwoUpComputerScoreLabel);
+            this.Controls.Add(this.TwoUpPlayerScoreLabel);
+            this.Controls.Add(this.TwoUpOutcomeLabel);
+            this.Controls.Add(this.TwoUpCancelGameButton);
+            this.Controls.Add(this.TwoUpPlayAgainButton);
+            this.Controls.Add(this.TwoUpThrowCoinButton);
+            this.Controls.Add(this.TwoUpCoinBox1);
+            this.Controls.Add(this.TwoUpCoinBox2);
             this.Name = "Two_Up";
             this.Text = "Two_Up";
-            ((System.ComponentModel.ISupportInitialize)(this.Two_Up_CoinBox_2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Two_Up_CoinBox_1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.TwoUpCoinBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.TwoUpCoinBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -164,16 +164,16 @@
 
         #endregion
 
-        private System.Windows.Forms.PictureBox Two_Up_CoinBox_2;
-        private System.Windows.Forms.PictureBox Two_Up_CoinBox_1;
-        private System.Windows.Forms.Button Two_Up_ThrowCoin_Button;
-        private System.Windows.Forms.Button Two_Up_PlayAgain_Button;
-        private System.Windows.Forms.Button Two_Up_CancelGame_Button;
-        private System.Windows.Forms.Label Two_Up_PlayerScore_Label;
-        private System.Windows.Forms.Label Two_Up_ComputerScore_Label;
-        private System.Windows.Forms.Label Two_Up_PlayerScore_Number;
-        private System.Windows.Forms.Label Two_Up_ComputerScore_Number;
-        private System.Windows.Forms.Label Two_Up_Outcome_Label;
-        private System.Windows.Forms.Timer Two_Up_Timer;
+        private System.Windows.Forms.PictureBox TwoUpCoinBox2;
+        private System.Windows.Forms.PictureBox TwoUpCoinBox1;
+        private System.Windows.Forms.Button TwoUpThrowCoinButton;
+        private System.Windows.Forms.Button TwoUpPlayAgainButton;
+        private System.Windows.Forms.Button TwoUpCancelGameButton;
+        private System.Windows.Forms.Label TwoUpPlayerScoreLabel;
+        private System.Windows.Forms.Label TwoUpComputerScoreLabel;
+        private System.Windows.Forms.Label TwoUpPlayerScoreNumber;
+        private System.Windows.Forms.Label TwoUpComputerScoreNumber;
+        private System.Windows.Forms.Label TwoUpOutcomeLabel;
+        private System.Windows.Forms.Timer TwoUpTimer;
     }
 }
