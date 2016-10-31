@@ -24,20 +24,20 @@
         /// </summary>
         private void InitializeComponent() {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.Crazy_Eights_RadioDiamond = new System.Windows.Forms.RadioButton();
-            this.Crazy_Eights_RadioHearts = new System.Windows.Forms.RadioButton();
-            this.Crazy_Eights_RadioSpades = new System.Windows.Forms.RadioButton();
-            this.Crazy_Eights_RadioClubs = new System.Windows.Forms.RadioButton();
+            this.diamondRadioButton = new System.Windows.Forms.RadioButton();
+            this.heartsRadioButton = new System.Windows.Forms.RadioButton();
+            this.spadesRadioButton = new System.Windows.Forms.RadioButton();
+            this.clubsRadioButton = new System.Windows.Forms.RadioButton();
             this.button1 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.Crazy_Eights_RadioDiamond);
-            this.groupBox1.Controls.Add(this.Crazy_Eights_RadioHearts);
-            this.groupBox1.Controls.Add(this.Crazy_Eights_RadioSpades);
-            this.groupBox1.Controls.Add(this.Crazy_Eights_RadioClubs);
+            this.groupBox1.Controls.Add(this.diamondRadioButton);
+            this.groupBox1.Controls.Add(this.heartsRadioButton);
+            this.groupBox1.Controls.Add(this.spadesRadioButton);
+            this.groupBox1.Controls.Add(this.clubsRadioButton);
             this.groupBox1.Location = new System.Drawing.Point(42, 27);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(145, 190);
@@ -45,49 +45,49 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Choose A Suit";
             // 
-            // Crazy_Eights_RadioDiamond
+            // diamondRadioButton
             // 
-            this.Crazy_Eights_RadioDiamond.AutoSize = true;
-            this.Crazy_Eights_RadioDiamond.Location = new System.Drawing.Point(30, 132);
-            this.Crazy_Eights_RadioDiamond.Name = "Crazy_Eights_RadioDiamond";
-            this.Crazy_Eights_RadioDiamond.Size = new System.Drawing.Size(67, 17);
-            this.Crazy_Eights_RadioDiamond.TabIndex = 3;
-            this.Crazy_Eights_RadioDiamond.TabStop = true;
-            this.Crazy_Eights_RadioDiamond.Text = "Diamond";
-            this.Crazy_Eights_RadioDiamond.UseVisualStyleBackColor = true;
+            this.diamondRadioButton.AutoSize = true;
+            this.diamondRadioButton.Location = new System.Drawing.Point(30, 132);
+            this.diamondRadioButton.Name = "diamondRadioButton";
+            this.diamondRadioButton.Size = new System.Drawing.Size(67, 17);
+            this.diamondRadioButton.TabIndex = 3;
+            this.diamondRadioButton.TabStop = true;
+            this.diamondRadioButton.Text = "Diamond";
+            this.diamondRadioButton.UseVisualStyleBackColor = true;
             // 
-            // Crazy_Eights_RadioHearts
+            // heartsRadioButton
             // 
-            this.Crazy_Eights_RadioHearts.AutoSize = true;
-            this.Crazy_Eights_RadioHearts.Location = new System.Drawing.Point(30, 100);
-            this.Crazy_Eights_RadioHearts.Name = "Crazy_Eights_RadioHearts";
-            this.Crazy_Eights_RadioHearts.Size = new System.Drawing.Size(56, 17);
-            this.Crazy_Eights_RadioHearts.TabIndex = 2;
-            this.Crazy_Eights_RadioHearts.TabStop = true;
-            this.Crazy_Eights_RadioHearts.Text = "Hearts";
-            this.Crazy_Eights_RadioHearts.UseVisualStyleBackColor = true;
+            this.heartsRadioButton.AutoSize = true;
+            this.heartsRadioButton.Location = new System.Drawing.Point(30, 100);
+            this.heartsRadioButton.Name = "heartsRadioButton";
+            this.heartsRadioButton.Size = new System.Drawing.Size(56, 17);
+            this.heartsRadioButton.TabIndex = 2;
+            this.heartsRadioButton.TabStop = true;
+            this.heartsRadioButton.Text = "Hearts";
+            this.heartsRadioButton.UseVisualStyleBackColor = true;
             // 
-            // Crazy_Eights_RadioSpades
+            // spadesRadioButton
             // 
-            this.Crazy_Eights_RadioSpades.AutoSize = true;
-            this.Crazy_Eights_RadioSpades.Location = new System.Drawing.Point(30, 66);
-            this.Crazy_Eights_RadioSpades.Name = "Crazy_Eights_RadioSpades";
-            this.Crazy_Eights_RadioSpades.Size = new System.Drawing.Size(61, 17);
-            this.Crazy_Eights_RadioSpades.TabIndex = 1;
-            this.Crazy_Eights_RadioSpades.TabStop = true;
-            this.Crazy_Eights_RadioSpades.Text = "Spades";
-            this.Crazy_Eights_RadioSpades.UseVisualStyleBackColor = true;
+            this.spadesRadioButton.AutoSize = true;
+            this.spadesRadioButton.Location = new System.Drawing.Point(30, 66);
+            this.spadesRadioButton.Name = "spadesRadioButton";
+            this.spadesRadioButton.Size = new System.Drawing.Size(61, 17);
+            this.spadesRadioButton.TabIndex = 1;
+            this.spadesRadioButton.TabStop = true;
+            this.spadesRadioButton.Text = "Spades";
+            this.spadesRadioButton.UseVisualStyleBackColor = true;
             // 
-            // Crazy_Eights_RadioClubs
+            // clubsRadioButton
             // 
-            this.Crazy_Eights_RadioClubs.AutoSize = true;
-            this.Crazy_Eights_RadioClubs.Location = new System.Drawing.Point(30, 33);
-            this.Crazy_Eights_RadioClubs.Name = "Crazy_Eights_RadioClubs";
-            this.Crazy_Eights_RadioClubs.Size = new System.Drawing.Size(51, 17);
-            this.Crazy_Eights_RadioClubs.TabIndex = 0;
-            this.Crazy_Eights_RadioClubs.TabStop = true;
-            this.Crazy_Eights_RadioClubs.Text = "Clubs";
-            this.Crazy_Eights_RadioClubs.UseVisualStyleBackColor = true;
+            this.clubsRadioButton.AutoSize = true;
+            this.clubsRadioButton.Location = new System.Drawing.Point(30, 33);
+            this.clubsRadioButton.Name = "clubsRadioButton";
+            this.clubsRadioButton.Size = new System.Drawing.Size(51, 17);
+            this.clubsRadioButton.TabIndex = 0;
+            this.clubsRadioButton.TabStop = true;
+            this.clubsRadioButton.Text = "Clubs";
+            this.clubsRadioButton.UseVisualStyleBackColor = true;
             // 
             // button1
             // 
@@ -117,10 +117,10 @@
         #endregion
 
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.RadioButton Crazy_Eights_RadioDiamond;
-        private System.Windows.Forms.RadioButton Crazy_Eights_RadioHearts;
-        private System.Windows.Forms.RadioButton Crazy_Eights_RadioSpades;
-        private System.Windows.Forms.RadioButton Crazy_Eights_RadioClubs;
+        private System.Windows.Forms.RadioButton diamondRadioButton;
+        private System.Windows.Forms.RadioButton heartsRadioButton;
+        private System.Windows.Forms.RadioButton spadesRadioButton;
+        private System.Windows.Forms.RadioButton clubsRadioButton;
         private System.Windows.Forms.Button button1;
     }
 }
